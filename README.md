@@ -12,12 +12,13 @@ In a normal indoor lighting situation, the sensor will output from 1 to 2V.
 
 Repository Contents
 -------------------
-
+* **/Firmware** - Arduino Example Code
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
 Documentation
 --------------
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilypad-light-sensor-hookup-guide)** - Basic hookup guide for the LilyPad Light Sensor.
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 
