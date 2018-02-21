@@ -1554,32 +1554,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="101.6" y="63.5" size="1.778" layer="97">Un-used
+<text x="114.3" y="66.04" size="1.778" layer="97">Un-used
 sew taps</text>
-<text x="93.98" y="137.16" size="1.778" layer="97">Light Sensor</text>
+<text x="99.06" y="172.72" size="5.08" layer="97">Light Sensor</text>
 <text x="171.45" y="11.43" size="2.54" layer="94">Marshall Taylor</text>
-<text x="238.252" y="7.112" size="2.54" layer="94">v10</text>
+<text x="238.252" y="7.112" size="2.54" layer="94">v01</text>
+<text x="148.59" y="7.112" size="2.54" layer="94">Revised by: Elias Santistevan</text>
 </plain>
 <instances>
-<instance part="ST3" gate="G$1" x="119.38" y="63.5" smashed="yes"/>
-<instance part="ST2" gate="G$1" x="119.38" y="66.04" smashed="yes"/>
-<instance part="ST1" gate="G$1" x="119.38" y="68.58" smashed="yes"/>
-<instance part="SEWTAPLS-" gate="G$1" x="114.3" y="83.82" smashed="yes">
-<attribute name="VALUE" x="116.332" y="83.058" size="1.778" layer="96"/>
+<instance part="ST3" gate="G$1" x="132.08" y="66.04" smashed="yes"/>
+<instance part="ST2" gate="G$1" x="132.08" y="68.58" smashed="yes"/>
+<instance part="ST1" gate="G$1" x="132.08" y="71.12" smashed="yes"/>
+<instance part="SEWTAPLS-" gate="G$1" x="127" y="86.36" smashed="yes">
+<attribute name="VALUE" x="129.032" y="85.598" size="1.778" layer="96"/>
 </instance>
-<instance part="SEWTAPLS+" gate="G$1" x="114.3" y="121.92" smashed="yes">
-<attribute name="VALUE" x="116.332" y="121.158" size="1.778" layer="96"/>
+<instance part="SEWTAPLS+" gate="G$1" x="127" y="124.46" smashed="yes">
+<attribute name="VALUE" x="129.032" y="123.698" size="1.778" layer="96"/>
 </instance>
-<instance part="SEWTAPLSOUT" gate="G$1" x="114.3" y="104.14" smashed="yes">
-<attribute name="VALUE" x="116.078" y="103.378" size="1.778" layer="96"/>
+<instance part="SEWTAPLSOUT" gate="G$1" x="127" y="106.68" smashed="yes">
+<attribute name="VALUE" x="128.778" y="105.918" size="1.778" layer="96"/>
 </instance>
-<instance part="R24" gate="G$1" x="109.22" y="91.44" rot="R90"/>
-<instance part="U3" gate="G$1" x="106.68" y="114.3" smashed="yes">
-<attribute name="VALUE" x="111.76" y="112.395" size="1.778" layer="96"/>
-<attribute name="NAME" x="111.76" y="115.57" size="1.778" layer="95"/>
+<instance part="R24" gate="G$1" x="121.92" y="93.98" rot="R90"/>
+<instance part="U3" gate="G$1" x="119.38" y="116.84" smashed="yes">
+<attribute name="VALUE" x="124.46" y="114.935" size="1.778" layer="96"/>
+<attribute name="NAME" x="124.46" y="118.11" size="1.778" layer="95"/>
 </instance>
-<instance part="P+8" gate="G$1" x="109.22" y="124.46"/>
-<instance part="GND24" gate="1" x="109.22" y="78.74"/>
+<instance part="P+8" gate="G$1" x="121.92" y="127"/>
+<instance part="GND24" gate="1" x="121.92" y="81.28"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="V" x="147.32" y="0"/>
 <instance part="U$1" gate="G$1" x="223.52" y="38.1"/>
@@ -1591,10 +1592,10 @@ sew taps</text>
 <segment>
 <pinref part="SEWTAPLS-" gate="G$1" pin="1"/>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="86.36" x2="109.22" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="83.82" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
-<junction x="109.22" y="83.82"/>
+<wire x1="121.92" y1="88.9" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+<junction x="121.92" y="86.36"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -1602,26 +1603,26 @@ sew taps</text>
 <segment>
 <pinref part="SEWTAPLS+" gate="G$1" pin="1"/>
 <pinref part="U3" gate="G$1" pin="C1"/>
-<wire x1="109.22" y1="119.38" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="121.92" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
-<junction x="109.22" y="121.92"/>
+<wire x1="121.92" y1="121.92" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="124.46" x2="124.46" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="124.46" x2="121.92" y2="127" width="0.1524" layer="91"/>
+<junction x="121.92" y="124.46"/>
 <pinref part="P+8" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="D2" class="0">
 <segment>
-<wire x1="109.22" y1="96.52" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="99.06" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="99.06" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="101.6" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SEWTAPLSOUT" gate="G$1" pin="1"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <pinref part="U3" gate="G$1" pin="E1"/>
-<wire x1="109.22" y1="104.14" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
-<junction x="109.22" y="99.06"/>
-<wire x1="111.76" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
-<junction x="109.22" y="104.14"/>
-<wire x1="109.22" y1="99.06" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
-<label x="114.3" y="99.06" size="1.27" layer="95" xref="yes"/>
+<wire x1="121.92" y1="106.68" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
+<junction x="121.92" y="101.6"/>
+<wire x1="124.46" y1="106.68" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
+<junction x="121.92" y="106.68"/>
+<wire x1="121.92" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<label x="127" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
