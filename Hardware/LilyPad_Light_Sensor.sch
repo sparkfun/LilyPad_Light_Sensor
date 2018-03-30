@@ -8785,13 +8785,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="114.3" y="66.04" size="1.778" layer="97">Un-used
+<text x="114.3" y="66.04" size="1.778" layer="97" font="vector">Un-used
 sew taps</text>
-<text x="99.06" y="172.72" size="5.08" layer="97">Light Sensor</text>
+<text x="99.06" y="172.72" size="5.08" layer="97" font="vector">Light Sensor</text>
 <text x="171.45" y="11.43" size="2.54" layer="94" font="vector">Marshall Taylor</text>
-<text x="238.252" y="7.112" size="2.54" layer="94" font="vector">v14</text>
+<text x="238.252" y="7.112" size="2.54" layer="94" font="vector">v20</text>
 <text x="148.59" y="7.112" size="2.54" layer="94" font="vector">Revised by: Elias Santistevan</text>
-<text x="101.6" y="139.7" size="2.54" layer="97">VCC Range: 2.5V-5.5V</text>
+<text x="104.14" y="139.7" size="2.54" layer="97" font="vector">VCC Range: 2.5V-5.5V</text>
 <text x="147.32" y="38.1" size="2.54" layer="94" font="vector">LilyPad concept and shapes by: 
 L. Buechley and N. Seidle</text>
 </plain>
@@ -8800,18 +8800,18 @@ L. Buechley and N. Seidle</text>
 <instance part="ST2" gate="G$1" x="132.08" y="68.58" smashed="yes"/>
 <instance part="ST1" gate="G$1" x="132.08" y="71.12" smashed="yes"/>
 <instance part="SEWTAPLS-" gate="G$1" x="127" y="86.36" smashed="yes">
-<attribute name="VALUE" x="129.032" y="85.598" size="1.778" layer="96"/>
+<attribute name="VALUE" x="129.032" y="85.598" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SEWTAPLS+" gate="G$1" x="127" y="124.46" smashed="yes">
-<attribute name="VALUE" x="129.032" y="123.698" size="1.778" layer="96"/>
+<attribute name="VALUE" x="129.032" y="123.698" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SEWTAPLSOUT" gate="G$1" x="127" y="106.68" smashed="yes">
-<attribute name="VALUE" x="128.778" y="105.918" size="1.778" layer="96"/>
+<attribute name="VALUE" x="128.778" y="105.918" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R1" gate="G$1" x="121.92" y="96.52" rot="R90"/>
 <instance part="U1" gate="G$1" x="119.38" y="116.84" smashed="yes">
-<attribute name="VALUE" x="124.46" y="114.935" size="1.778" layer="96"/>
-<attribute name="NAME" x="124.46" y="118.11" size="1.778" layer="95"/>
+<attribute name="VALUE" x="124.46" y="114.935" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="124.46" y="118.11" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="P+8" gate="G$1" x="121.92" y="127"/>
 <instance part="GND24" gate="1" x="121.92" y="81.28"/>
@@ -8822,7 +8822,7 @@ L. Buechley and N. Seidle</text>
 <instance part="FD2" gate="G$1" x="243.84" y="30.48"/>
 <instance part="FD3" gate="G$1" x="243.84" y="27.94"/>
 <instance part="FD4" gate="G$1" x="246.38" y="27.94"/>
-<instance part="LOGO1" gate="G$1" x="236.22" y="53.34"/>
+<instance part="LOGO1" gate="G$1" x="236.22" y="55.88"/>
 <instance part="LOGO2" gate="G$1" x="215.9" y="48.26"/>
 </instances>
 <busses>

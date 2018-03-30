@@ -354,7 +354,7 @@
 <text x="-35.56" y="-16.51" size="1.778" layer="52" font="vector" rot="MR0">Marshal Taylor</text>
 <circle x="9.652" y="9.652" radius="9.652" width="0.2032" layer="47"/>
 <text x="6.604" y="23.622" size="1.778" layer="47" font="vector" ratio="15">Inches</text>
-<text x="10.795" y="2.667" size="1.016" layer="16" font="vector" ratio="15" rot="MR0">v14</text>
+<text x="10.795" y="2.667" size="1.016" layer="16" font="vector" ratio="15" rot="MR0">v20</text>
 <circle x="9.652" y="9.652" radius="9.652" width="0.2032" layer="20"/>
 <dimension x1="0" y1="9.652" x2="19.304" y2="9.652" x3="9.652" y3="26.289" textsize="1.778" textratio="15" layer="47" dtype="diameter" unit="inch"/>
 <text x="-173.99" y="-33.02" size="1.778" layer="52" rot="MR0" align="top-left">PCB thickness: 31 mil / 0.8mm </text>
@@ -368,6 +368,30 @@
 0.0866
 </text>
 <text x="-194.31" y="-15.24" size="1.778" layer="52" font="vector" rot="MR0">Revised by: Elias Santistevan</text>
+<text x="3.81" y="-36.83" size="1.778" layer="52" rot="MR0" align="top-left">PCB thickness: 31 mil / 0.8mm </text>
+<text x="3.81" y="-40.64" size="1.778" layer="52" rot="MR0" align="top-left">Solder mask color: Purple (Lilypad)</text>
+<text x="3.81" y="-44.45" size="1.778" layer="52" rot="MR0" align="top-left">Finishing: Lead-free HASL</text>
+<text x="3.81" y="-48.26" size="1.778" layer="52" rot="MR0" align="top-left">Unplated holes:
+0.02
+</text>
+<text x="-22.86" y="-48.26" size="1.778" layer="52" rot="MR0" align="top-left">Plated holes:
+0.0866
+</text>
+<text x="5.08" y="-21.11375" size="1.778" layer="52" font="vector" rot="MR0" align="top-left">LilyPad concept and shapes by:  L. Buechley and N. Seidle</text>
+<text x="-16.51" y="-19.05" size="1.778" layer="52" font="vector" rot="MR0">Revised by: Elias Santistevan</text>
+<text x="-35.56" y="-16.51" size="1.778" layer="52" font="vector" rot="MR0">Marshall Taylor</text>
+<text x="-142.24" y="-39.37" size="1.778" layer="52" rot="MR0" align="top-left">PCB thickness: 31 mil / 0.8mm </text>
+<text x="-142.24" y="-43.18" size="1.778" layer="52" rot="MR0" align="top-left">Solder mask color: Purple (Lilypad)</text>
+<text x="-142.24" y="-46.99" size="1.778" layer="52" rot="MR0" align="top-left">Finishing: Lead-free HASL</text>
+<text x="-142.24" y="-50.8" size="1.778" layer="52" rot="MR0" align="top-left">Unplated holes:
+0.02
+</text>
+<text x="-168.91" y="-50.8" size="1.778" layer="52" rot="MR0" align="top-left">Plated holes:
+0.0866
+</text>
+<text x="-140.97" y="-23.65375" size="1.778" layer="52" font="vector" rot="MR0" align="top-left">LilyPad concept and shapes by:  L. Buechley and N. Seidle</text>
+<text x="-162.56" y="-21.59" size="1.778" layer="52" font="vector" rot="MR0">Revised by: Elias Santistevan</text>
+<text x="-181.61" y="-19.05" size="1.778" layer="52" font="vector" rot="MR0">Marshall Taylor</text>
 <text x="-3.81" y="-36.83" size="1.778" layer="51" align="top-left">PCB thickness: 31 mil / 0.8mm </text>
 <text x="-3.81" y="-40.64" size="1.778" layer="51" align="top-left">Solder mask color: Purple (Lilypad)</text>
 <text x="-3.81" y="-44.45" size="1.778" layer="51" align="top-left">Finishing: Lead-free HASL</text>
@@ -1128,8 +1152,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="3.81"/>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="3.81" rot="MR0"/>
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="13.97" y="16.51" rot="MR0"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="8.509" y="4.572" rot="MR0"/>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="12.192" y="2.921" rot="MR0"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="2.921" y="9.652" rot="MR0"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="17.018" y="8.128" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
