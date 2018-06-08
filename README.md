@@ -1,9 +1,9 @@
 LilyPad Light Sensor
 ========================================
 
-![LilyPad Light Sensor](https://cdn.sparkfun.com//assets/parts/1/3/5/8/08464-01.jpg)
+![LilyPad Light Sensor](https://cdn.sparkfun.com/assets/parts/1/2/8/0/8/14629-LilyPad_Light_Sensor-01.jpg)
 
-[*LilyPad Light Sensor(DEV-08464)*](https://www.sparkfun.com/products/8464)
+[*LilyPad Light Sensor(DEV-14629)*](https://www.sparkfun.com/products/14629)
 
 This is a simple to use light sensor that outputs an analog value from 0 to 5V. 
 With exposure to daylight, this sensor will output 5V. 
@@ -18,7 +18,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilypad-light-sensor-hookup-guide)** - Basic hookup guide for the LilyPad Light Sensor.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilypad-light-sensor-v2-hookup-guide)** - Basic hookup guide for the LilyPad Light Sensor.
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 
